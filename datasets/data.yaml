@@ -1,0 +1,7 @@
+path: datasets
+train: images/train
+val: images/val
+
+nc: 1  # 類別數量
+names: ["defect"]  # 類別名稱
+task: segment  # 設定為 "segment" 來做實例分割
